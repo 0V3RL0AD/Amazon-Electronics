@@ -5,10 +5,14 @@ Feature: Buying Electronics User Journey
   So that I can click on the result I chose
 
 
-  Scenario: Customer can successfully search for 5th electronic device to buy
+  Scenario Outline: Customer can successfully search for 5th Samsung device to buy
     Given I navigate to Amazon homepage
-    When I enter Tomatoes into the search field
-    And I change the department to electronics
+    When I enter Samsung into the search field
+    And I change the department to "<electronics>"
     And I choose the 5th Search Result
     And I add the product to the basket
     Then I should see the product in the basket
+
+    Examples:
+      |department  |
+      |electronics |

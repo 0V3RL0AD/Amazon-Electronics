@@ -1,6 +1,7 @@
 package co.uk.amazon.stepDefinitions;
 
 import co.uk.amazon.pages.BasePage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -13,16 +14,12 @@ public class stepDefinitions extends BasePage {
         throw new io.cucumber.java.PendingException();
     }
 
-    @When("I enter Tomatoes into the search field")
-    public void i_enter_tomatoes_into_the_search_field() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("I enter Samsung into the search field")
+    public void iEnterSamsungIntoTheSearchField() {
     }
 
-    @When("I change the department to electronics")
-    public void i_change_the_department_to_electronics() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @And("I change the department to {string}")
+    public void iChangeTheDepartmentTo(String string) {
     }
 
     @When("I choose the 5th Search Result")
@@ -42,4 +39,7 @@ public class stepDefinitions extends BasePage {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
+
+
+
 }
