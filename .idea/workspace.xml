@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c32e4ec-17fa-43c5-9019-0beb0082e636" name="Changes" comment="Final push (hopefully)&#10;Gets 5th result and adds to cart">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/config.properties" afterDir="false" />
+    <list default="true" id="7c32e4ec-17fa-43c5-9019-0beb0082e636" name="Changes" comment="Runs on multiple environments now through config data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/amazon/hooks/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/hooks/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1721935515231</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Runs on multiple environments now through config data">
+      <option name="closed" value="true" />
+      <created>1722877651452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722877651452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial setup" />
     <MESSAGE value="Final push (hopefully)&#10;Gets 5th result and adds to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final push (hopefully)&#10;Gets 5th result and adds to cart" />
+    <MESSAGE value="Runs on multiple environments now through config data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runs on multiple environments now through config data" />
   </component>
 </project>

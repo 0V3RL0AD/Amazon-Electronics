@@ -18,7 +18,6 @@ public class Hooks extends BrowserManager {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     @After
